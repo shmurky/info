@@ -6,7 +6,7 @@ def wyszukaj(tab, szukana):
         gg = (a + b) // 2
 
         if tab[gg] == szukana:
-            return sr
+            return gg
         elif tab[gg] > szukana:
             b = gg - 1
         else:
