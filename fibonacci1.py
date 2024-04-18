@@ -6,3 +6,4 @@ def fibonacci_recursive(n):
 
 n = int(input("Podaj nr wyrazu ciągu: "))
 result = fibonacci_recursive(n)
+print(f"{n} wyraz ciągu ma wartość {result}")
